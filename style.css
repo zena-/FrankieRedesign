@@ -61,3 +61,22 @@
     color: purple;
     text-decoration: none;
 }
+.creat {
+	    width: 100%;
+	}
+
+@media only screen and (max-width: 1000px){
+	#welcome{
+		background: url(img/frank.png) no-repeat center center fixed;
+	}
+}
+@media only screen and (max-width: 760px){
+	.creat {
+	    width: 140px;
+	    margin: 8px;
+	}
+
+	#welcome{
+		background: url(img/frank.png) no-repeat fixed;
+	}
+}
